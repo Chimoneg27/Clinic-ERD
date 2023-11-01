@@ -59,8 +59,11 @@
 
 > Describe between 1-3 key features of the application.
 
-- **[Patient data]**
+- **[Animal data]**
 - **[A simplle RDBMS]**
+- **[A folder for my query screenshots]**
+- **[A query.sql fie]**
+- **[A data.sql file]**
 - **[A schema.sql file]**
 - **[A query.sql file containing all my queries]**
 
@@ -156,11 +159,18 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Garvin Chimone**
 
 - GitHub: [@Chimoneg27](https://github.com/Chimoneg27)
 - Twitter: [@GarvinChimone](https://twitter.com/GarvinChimone)
 - LinkedIn: [Garvin Chimone](https://www.linkedin.com/in/garvin-chimone-37208924a/)
+
+👤 **Fombi Magnus-Favour**
+
+- GitHub: [Fombi-Favour](https://github.com/Fombi-Favour)
+- Twitter: [@FavourFombi](https://twitter.com/FavourFombi)
+- LinkedIn: [Fombi Favour](https://www.linkedin.com/in/fombi-favour/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -170,10 +180,9 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[A query file]**
-- [ ] **[A data file]**
-- [ ] **[More tables]**
-- [ ] **[Populated tables with data]**
+- [ ] **[More query options]**
+- [ ] **[Table linking]**
+- [ ] **[More pets]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -183,7 +192,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Chimoneg27/Clinic-ERD/issues).
+Feel free to check the [issues page](https://github.com/Chimoneg27/Vet-Clinic-V1/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
