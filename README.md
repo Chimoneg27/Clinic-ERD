@@ -27,21 +27,7 @@
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
+  <summary>Database</summary>
   <ul>
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
@@ -55,85 +41,75 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 💻 Getting Started <a name="getting-started"></a>
+## 💻 Getting Started
 
-To get a local copy up and running, follow these steps.
+To get a local copy of the Clinic-ERD project up and running, follow these steps:
 
 ### Prerequisites
 
-In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+In order to run this project, you need to have PostgreSQL installed on your system. If you haven't already installed PostgreSQL, you can download and install it from the official website: [PostgreSQL Downloads](https://www.postgresql.org/download/)
 
 ### Setup
 
-Clone this repository to your desired folder:
+1. Clone this repository to your desired folder using the following command:
 
-<!--
-Example commands:
+   ```sh
+   git clone https://github.com/Chimoneg27/Clinic-ERD.git
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+    ```
+2. Navigate to the project folder
+
+   ```sh
+   cd Clinic-ERD
+
+   ```
 
 ### Install
 
-Install this project with:
+1. Create a PostgreSQL database for the project. You can do this using the PostgreSQL command line or a graphical tool like pgAdmin.
 
-<!--
-Example command:
+2. Configure the database connection by modifying the config/database.yml file with your database credentials.
 
-```sh
-  cd my-project
-  gem install
-```
---->
+3. Install the required gems by running the following command:
+
+   ```sh
+   bundle install
+
+   ```
+4. Run the migrations to create the database tables:
+
+   ```sh
+    rails db:migrate
+    rails db:migrate
+    ```
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
 Example command:
 
 ```sh
   rails server
 ```
---->
+Your Clinic-ERD application should now be accessible by visiting http://localhost:3000 in your web browser.
 
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
 Example command:
 
 ```sh
   bin/rails test test/models/article_test.rb
 ```
---->
+-
 
 ### Deployment
 
-You can deploy this project using: 
+You can deploy this project to a production server of your choice following the standard deployment procedures for Ruby on Rails applications.
 
-<!--
-Example:
-
-```sh
-
-```
- -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#getting-started">back to top<a><p>
 
 ## 👥 Authors <a name="authors"></a>
 
